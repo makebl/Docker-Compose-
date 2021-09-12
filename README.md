@@ -105,7 +105,7 @@
 ### 其它脚本
 - `Docker` 一键安装脚本
 
-      bash <(curl -sSL https://gitee.com/SuperManito/LinuxMirrors/raw/main/DockerInstallation.sh)
+      bash <(curl -sSL https://raw.githubusercontent.com/279437541/Docker-Compose-/main/DockerInstallation.sh)
 
 > `Docker CE`：Docker Community Edition 镜像仓库，用于下载并安装 Docker 相关软件包。\
 > `Docker Hub`：Docker Hub 镜像仓库，默认为官方提供的公共库，用于切换下载镜像时的来源仓库，简称镜像加速器。
