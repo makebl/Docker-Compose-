@@ -95,7 +95,7 @@
 
 - `GNU/Linux` 一键更换国内软件源脚本
 
-      bash <(curl -sSL https://gitee.com/SuperManito/LinuxMirrors/raw/main/ChangeMirrors.sh)
+      bash <(curl -sSL https://raw.githubusercontent.com/279437541/Docker-Compose-/main/ChangeMirrors.sh)
 > __注意：__
 > - _Debian 系 Linux 默认注释了源码仓库和预发布软件源，若需启用可将 list 源文件中相关内容的所在行 `取消注释`。_
 > - _RedHat 系 Linux 配置了所有可以配置的仓库，但有一些仓库默认没有启用，若需启用可将 repo 源文件中的 `enabled=0`修改成 `enabled=1`。_
